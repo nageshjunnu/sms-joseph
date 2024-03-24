@@ -26,15 +26,61 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Title: St. Joseph's Student Management System using Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Introduction:
+St. Joseph's Student Management System (SJMS) is a comprehensive web application built using Next.js, tailored specifically for St. Joseph's educational institution. This system aims to streamline various administrative tasks related to student management, enhancing efficiency and organization within the institution. Below, we provide a detailed description of each module incorporated into the SJMS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Authentication Module:
 
-## Deploy on Vercel
+Description: The Authentication Module handles user authentication and authorization within the system. It provides secure login and logout functionalities for administrators, teachers, and students.
+Features:
+User registration and login.
+Role-based access control (Admin, Teacher, Student).
+Password hashing for security.
+Session management.
+Student Information Module:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Description: This module is designed to manage student information comprehensively, including personal details, academic records, attendance, and disciplinary history.
+Features:
+Student profile management.
+Recording and tracking of academic performance.
+Attendance tracking and reporting.
+Discipline management.
+Teacher Management Module:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Description: The Teacher Management Module facilitates the administration of teacher-related tasks, such as profile management, course assignment, and performance evaluation.
+Features:
+Teacher profile management.
+Assignment of courses and classes.
+Performance evaluation and feedback.
+Course Management Module:
+
+Description: This module focuses on managing courses offered by the institution, including course creation, scheduling, and enrollment.
+Features:
+Course creation and editing.
+Class scheduling and timetable management.
+Enrollment management.
+Gradebook Module:
+
+Description: The Gradebook Module assists teachers in recording and managing students' grades and assessments.
+Features:
+Grade entry and calculation.
+Assignment and test management.
+Grade reporting to students and parents.
+Communication Module:
+
+Description: The Communication Module facilitates communication between stakeholders within the institution, including teachers, students, and parents.
+Features:
+Announcement broadcasting.
+Messaging between users (teachers, students, parents).
+Notification system for important updates.
+Reporting Module:
+
+Description: This module generates various reports based on student data, attendance, grades, and other relevant metrics.
+Features:
+Report generation for administrators, teachers, and parents.
+Customizable report templates.
+Data visualization tools for analysis.
+Conclusion:
+The St. Joseph's Student Management System implemented with Next.js provides a comprehensive solution for managing various aspects of student administration within the institution. Each module is carefully designed to address specific needs, ensuring efficiency, accuracy, and ease of use. With its intuitive interface and robust functionalities, SJMS aims to enhance the overall educational experience at St. Joseph's while simplifying administrative tasks for staff and faculty.
